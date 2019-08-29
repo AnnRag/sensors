@@ -31,7 +31,7 @@ import java.util.stream.Collectors;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "postgresqlEntityManager",
         transactionManagerRef = "postgresqlTransactionManager",
-        basePackages = "ru.sbrf.orm.postgresql"
+        basePackages = "postgresql"
 )
 public class PostgreSqlConfiguration {
 
