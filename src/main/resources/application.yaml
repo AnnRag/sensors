@@ -1,0 +1,11 @@
+server:
+  port: 20000
+
+spring:
+  postgresql:
+    datasource:
+      jdbcUrl: "jdbc:postgresql://host:5432/db"
+      username: "task"
+      password: "ptask"
+      driver-class-name: "org.postgresql.Driver"
+      ddlAuto: "validate"
